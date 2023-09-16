@@ -1,0 +1,139 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.ex-form {
+    background-color: lavender;
+    padding: 20px;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.form-group {
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.form-group h2 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.form-group input, textarea {
+
+}
+
+.form-group label {
+    margin-right: 30px;
+    padding: 5px;
+    float: left;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.ex-form {
+    background-color: lavender;
+    padding: 20px;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.form-group h2 {
+    text-align: center;
+}
+
+.form-group label, .filebrowse label {
+    clear: left;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.form-group input {
+    vertical-align: middle;
+    clear: right;
+    float: right;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 200px;
+    resize: none;
+}
+
+.form-group textarea {
+    vertical-align: middle;
+    clear: right;
+    float: right;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 200px;
+    resize: none;
+}
+
+.filebrowse span {
+    display: inline;
+    clear: right;
+    float: right;
+    width: 210px;
+}
+
+.filebrowse input[type="file"] {
+    display: none;
+}
+
+.file-wrapper input {
+    display: inline;
+    vertical-align: middle;
+    clear: right;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.selection-wrapper {
+    margin-top: 20px;
+    padding-top: 10px;
+    display: block;
+}
+
+.selection-wrapper span{
+    padding-top: 5px;
+    display: block;
+}
+
+.button-wrapper {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.button-wrapper button {
+    background-color: #dddddd;
+    margin-left: 10px;
+    width: 60px;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: center;
+}

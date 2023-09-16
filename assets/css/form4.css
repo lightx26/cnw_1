@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.color-form {
+    padding: 20px;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.form-group {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-group input {
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-group button {
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: center;
+}

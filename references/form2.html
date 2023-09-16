@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/form2.css">
+    <script src="../assets/js/form2.js"></script>
+</head>
+<body>
+    <form method="post" class="ex-form">
+        <div class="form-group">
+            <h2>Ví dụ về tạo form</h2>
+            <br/>
+        </div>
+        <div class="form-group">
+            <label for="textbox">Text box</label>
+            <input type="text" id="textbox" name="textbox">
+            <br/>
+        </div>
+        <div class="form-group">
+            <label for="textarea">Text area</label>
+            <textarea id="textarea" name="textarea" rows="2"></textarea>
+            <br/><br/>
+        </div>
+        <div class="filebrowse">
+            <label for="filebox">File</label>
+            <span class="file-wrapper">
+                <input type="text" id="filenamebox" readonly>
+                <button type="button" id="btnbrowse">Browse...</button>
+            </span>
+            <input type="file" id="filebox" name="filebox">
+            <br/>
+        </div>
+        <div class="selection-wrapper">
+            <span> <input type="radio"> Radio button</span>
+            <span> <input type="checkbox"> Checkbox</span>
+            <br/>
+        </div>
+        <div class="button-wrapper">
+            <button type="submit" id="btnsubmit">Submit</button>
+            <button type="reset" id="btnreset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

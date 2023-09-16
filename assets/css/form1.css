@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.login-form {
+    background-color: lavender;
+    padding: 20px;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.form-group h2 {
+    text-align: center;
+}
+
+.form-group label {
+    clear: left;
+    float: left;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.form-group input {
+    vertical-align: middle;
+    clear: right;
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.button-wrapper {
+    margin: 20px;
+    margin-left: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.button-wrapper button {
+    background-color: #dddddd;
+    margin-left: 10px;
+    width: 60px;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: center;
+}
