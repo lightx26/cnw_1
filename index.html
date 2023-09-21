@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/index.css"/>
-    <script src="./assets/js/index.js"></script>
 </head>
-<body>
-    <iframe title="header" id="header" src="./partials/T1.html" frameBorder="0"></iframe>
-    <div class="content-container">
-        <iframe title="left-content" id="left-content" src="./partials/T2.html"></iframe>
-        <iframe title="main-content" id="main-content" src="./partials/T3.html"></iframe>
-        <iframe title="right-content" id="right-content" src="./partials/T4.html"></iframe>
-    </div>
-
-    <iframe title="header" id="footer" src="./partials/T5.html" frameBorder="0"></iframe>
-</body>
+    <frameset title="page" id="page" rows="10%, 80%, 10%">
+        <frame title="header" id="header" src="./partials/T1.html"></frame>
+        <frameset class="content-container" cols="10%, 80%, 10%" noresize>
+            <frame title="left-content" id="left-content" src="./partials/T2.html"></frame>
+            <frame title="main-content" name="main-content" id="main-content" src="./partials/T3.html"></frame>
+            <frame title="right-content" id="right-content" src="./partials/T4.html"></frame>
+        </frameset>
+        <frame title="header" id="footer" src="./partials/T5.html"></frame>
+    </frameset>
 </html>

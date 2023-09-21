@@ -1,15 +1,82 @@
-#table {
-    margin-right: 10px;
-    padding: 10px;
-    border: 2px solid black;
-    float: left;
-    height: 500px;
+body {
+    font-family: Arial, sans-serif;
 }
 
-#content {
-    margin-right: 10px;
+.navbar-wrapper {
+    height: 15%;
+    margin-bottom: 5px;
+}
+
+.logo-wrapper {
+    margin-right: 30px;
     padding: 10px;
-    border: 0px solid black;
+    float: left;
+}
+
+.content-nav-wrapper {
+
+}
+
+#searchbox {
+    margin-top: 10px;
+    padding: 10px;
     float: right;
-    height: 500px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+li {
+    font-weight: bold;
+    display: inline-block;
+    padding: 6px;
+}
+
+li a {
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+}
+
+.content-container {
+    min-height: 85%;
+    min-width: 100%;
+    margin-top: 25px;
+}
+
+.index-wrapper {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    padding: 5px;
+}
+
+.index-wrapper table, th, td{
+    padding: 10px;
+    border: 1px dashed rgb(144, 144, 144);
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.index-wrapper a {
+    text-decoration: none;
+}
+
+.index-wrapper th a{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.content-displayer {
+    position: absolute; 
+    height: 100%; 
+    border: none;
+    width: 75%;
+    float: right;
+    padding: 5px;
 }

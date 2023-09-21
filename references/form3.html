@@ -5,11 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/form3.css">
-    <script src="../assets/js/form3.js"></script>
 </head>
 <body>
-    <iframe title="header" id="frame-header" src="./form3_header.html" frameborder="0" width="100%"></iframe>
-    <iframe title="table" id="table" src="./form3_table.html" width="20%"></iframe>
-    <iframe title="content" id="content" src="./form3_content.html" width="70%"></iframe>
+    <div class="page">
+        <div title="navbar-wrapper" class="header">
+            <nav class="navbar" >
+                <div class="logo-wrapper">
+                    <a><img src="../assets/image/logo-k_cntt.png" alt="" height="50px"></a>
+                </div>
+                <div class="content-nav-wrapper">
+                    <form>
+                        <input type="text" name="searchbox" id="searchbox" placeholder="Tìm kiếm thông tin">
+                    </form>
+                    <br/><br/>
+                    <ul>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">TUYỂN SINH</a></li>
+                        <li><a href="#">ĐÀO TẠO</a></li>
+                        <li><a href="#">NGHIÊN CỨU</a></li>
+                        <li><a href="#">HỢP TÁC</a></li>
+                        <li><a href="#">SINH VIÊN</a></li>
+                        <li><a href="#">HỖ TRỢ</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <hr/>
+        <div class="content-container">
+            <div class="index-wrapper">
+                <table>
+                    <thead>
+                      <tr>
+                        <th><a href="./form3_content.html" target="content-displayer" >K. Công nghệ thông tin</a></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="http://dut.udn.vn/KhoaCNTT/Tintucds/gid/187" target="content-displayer">Thông báo</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="http://dut.udn.vn/KhoaCNTT/Tintucds/gid/186" target="content-displayer">Tin tức hoạt động</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="http://dut.udn.vn/KhoaCNTT/Gioithieu/id/1467" target="content-displayer">Đào tạo đại học</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="http://dut.udn.vn/KhoaCNTT/Gioithieu/id/1471" target="content-displayer">Đào tạo sau đại học</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="http://dut.udn.vn/KhoaCNTT/Gioithieu/id/1473" target="content-displayer">Nghiên cứu khoa học</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="http://dut.udn.vn/KhoaCNTT/Gioithieu/id/1467" target="content-displayer">Biểu mẫu của khoa</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <iframe title="content-displayer" name="content-displayer" class="content-displayer" src="../references/form3_content.html">
+            </iframe>
+        </div>
+    </div>
 </body>
 </html>
